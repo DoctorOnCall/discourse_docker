@@ -1,6 +1,6 @@
 # NAME:     discourse/base
 # VERSION:  release
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 
 ENV PG_MAJOR 10
 ENV RUBY_ALLOCATOR /usr/lib/libjemalloc.so.1
